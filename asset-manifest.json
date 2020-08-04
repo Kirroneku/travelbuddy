@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/travelbuddy/static/css/main.5f361e03.chunk.css",
+    "main.js": "/travelbuddy/static/js/main.06a20d4c.chunk.js",
+    "main.js.map": "/travelbuddy/static/js/main.06a20d4c.chunk.js.map",
+    "runtime-main.js": "/travelbuddy/static/js/runtime-main.1b4eda5f.js",
+    "runtime-main.js.map": "/travelbuddy/static/js/runtime-main.1b4eda5f.js.map",
+    "static/js/2.c9cbb6da.chunk.js": "/travelbuddy/static/js/2.c9cbb6da.chunk.js",
+    "static/js/2.c9cbb6da.chunk.js.map": "/travelbuddy/static/js/2.c9cbb6da.chunk.js.map",
+    "index.html": "/travelbuddy/index.html",
+    "precache-manifest.21f47e665d745442a55123f3a35c3c8c.js": "/travelbuddy/precache-manifest.21f47e665d745442a55123f3a35c3c8c.js",
+    "service-worker.js": "/travelbuddy/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/travelbuddy/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.c9cbb6da.chunk.js.LICENSE.txt": "/travelbuddy/static/js/2.c9cbb6da.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/travelbuddy/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1b4eda5f.js",
+    "static/js/2.c9cbb6da.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.06a20d4c.chunk.js"
+  ]
+}
