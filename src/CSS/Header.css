@@ -1,0 +1,29 @@
+
+.header {
+    box-shadow: 0 2px 0 rgba(12,13,14,0.1), 0 2px 6px rgba(44, 5, 136, 0.1);
+    /* top: -2.5%; */
+    border-top: 5px #0096fa;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    /* position: fixed; */
+    z-index: 99;
+    height: 40px;
+}
+
+#searchSubmit {
+    font-family: FontAwesome;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid grey;
+    height: 2em;
+    margin-top: 0.5em;
+    border-left: 0px;
+}
+
+#locationInput {
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid grey;
+    height: 2em;
+    margin-top: 0.45em;
+
+}

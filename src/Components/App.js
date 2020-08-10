@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import '../CSS/App.css';
+
+import Header from "./Header";
 import GoogleApiWrapper from "./MapChart";
 
 function App() {
@@ -7,22 +9,16 @@ function App() {
   const [location, setLocation] = useState("Macchu Picchu");
   const [searching, setSearch] = useState(location);
 
-  const newLocation = (event) => {
+  const newLocation = (event, location) => {
+    console.log("New Location", event)
     event.preventDefault();
-    setSearch(location);
+    setSearch(document.getElementById("locationInput").value);
   }
 
   return (
     <div className="App">
+      <Header setLocation={(event) => newLocation(event)}/>
       <div display="flex">
-        <form onSubmit={newLocation}>
-          <label>
-            Location:
-            <input type="text" id="locationInput" onChange={(event) => setLocation(event.target.value)}></input> 
-          </label>
-          <input type="submit" value="Search"/>
-
-        </form>
         <div>
           <GoogleApiWrapper location={searching}/>
         </div>
