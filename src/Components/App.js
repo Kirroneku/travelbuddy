@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <Header setLocation={(event) => newLocation(event)}/>
-      <div display="flex">
+      <div display="flex" className="content">
         <div>
           <GoogleApiWrapper location={searching}/>
         </div>

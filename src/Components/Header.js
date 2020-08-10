@@ -1,12 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../CSS/Header.css';
 // import { Link } from 'react-router-dom';
 
 const isMobile = document.body.clientWidth < 500? true: false;
 
 const Header = ({ setLocation }) => {
-
-    // let { current } = this.props;
 
     const socialStyle = {
         "float": "right",
@@ -17,15 +15,21 @@ const Header = ({ setLocation }) => {
     if( isMobile ) {
     }
 
+    let [hasValue, setValue ] = useState(true);
+
+    const locationChange = (location) => {
+        setValue(location.target.value == "");
+        console.log(hasValue == true);
+    }
+
     return (     
 
         <div>
-            <div className="header" style={{height: "3em", letterSpacing:"0.1em"}}>
+            <div className="header">
             
             <form onSubmit={setLocation}>
-                <input type="text" id="locationInput" placeholder="Search"></input> 
-                <input id="searchSubmit" type="submit" value="&#xf002;"/>
-
+                <input type="text" id="locationInput" placeholder="Search" onChange={locationChange}></input> 
+                <input id="searchSubmit" type="submit" value="&#xf002;" disabled={hasValue}/>
             </form>
             </div>
             {/* {this.props.children}   */}
