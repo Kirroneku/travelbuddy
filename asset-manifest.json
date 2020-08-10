@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/travelbuddy/static/css/main.5f361e03.chunk.css",
-    "main.js": "/travelbuddy/static/js/main.014b756d.chunk.js",
-    "main.js.map": "/travelbuddy/static/js/main.014b756d.chunk.js.map",
+    "main.css": "/travelbuddy/static/css/main.c01ccb85.chunk.css",
+    "main.js": "/travelbuddy/static/js/main.ddf7d2e4.chunk.js",
+    "main.js.map": "/travelbuddy/static/js/main.ddf7d2e4.chunk.js.map",
     "runtime-main.js": "/travelbuddy/static/js/runtime-main.1b4eda5f.js",
     "runtime-main.js.map": "/travelbuddy/static/js/runtime-main.1b4eda5f.js.map",
-    "static/js/2.0ce5cd36.chunk.js": "/travelbuddy/static/js/2.0ce5cd36.chunk.js",
-    "static/js/2.0ce5cd36.chunk.js.map": "/travelbuddy/static/js/2.0ce5cd36.chunk.js.map",
+    "static/js/2.83e920f2.chunk.js": "/travelbuddy/static/js/2.83e920f2.chunk.js",
+    "static/js/2.83e920f2.chunk.js.map": "/travelbuddy/static/js/2.83e920f2.chunk.js.map",
     "index.html": "/travelbuddy/index.html",
-    "precache-manifest.941512e4e1286f7b44c993a96f241c2f.js": "/travelbuddy/precache-manifest.941512e4e1286f7b44c993a96f241c2f.js",
+    "precache-manifest.15b86cbe9059801c619ece046f481fbb.js": "/travelbuddy/precache-manifest.15b86cbe9059801c619ece046f481fbb.js",
     "service-worker.js": "/travelbuddy/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/travelbuddy/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.0ce5cd36.chunk.js.LICENSE.txt": "/travelbuddy/static/js/2.0ce5cd36.chunk.js.LICENSE.txt"
+    "static/css/main.c01ccb85.chunk.css.map": "/travelbuddy/static/css/main.c01ccb85.chunk.css.map",
+    "static/js/2.83e920f2.chunk.js.LICENSE.txt": "/travelbuddy/static/js/2.83e920f2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1b4eda5f.js",
-    "static/js/2.0ce5cd36.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.014b756d.chunk.js"
+    "static/js/2.83e920f2.chunk.js",
+    "static/css/main.c01ccb85.chunk.css",
+    "static/js/main.ddf7d2e4.chunk.js"
   ]
 }
