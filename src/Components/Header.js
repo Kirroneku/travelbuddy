@@ -26,11 +26,19 @@ const Header = ({ setLocation }) => {
 
         <div>
             <div className="header">
-            
-            <form onSubmit={setLocation}>
-                <input type="text" id="locationInput" placeholder="Search" onChange={locationChange}></input> 
-                <input id="searchSubmit" type="submit" value="&#xf002;" disabled={hasValue}/>
-            </form>
+                <div className="flex">
+                    <h2 id="web-title">TravelBuddy</h2>
+                </div>
+                <div className="flex">
+                    <form id="location-form" onSubmit={setLocation}>
+                        <input type="text" id="locationInput" placeholder="Search" onChange={locationChange}></input> 
+                        <input id="searchSubmit" type="submit" value="&#xf002;" disabled={hasValue}/>
+                    </form>
+                </div>
+                <div className="flex" id="user-settings">
+                    <p>userSettings</p>
+                </div>
+           
             </div>
             {/* {this.props.children}   */}
         </div> 

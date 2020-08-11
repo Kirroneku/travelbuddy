@@ -1,5 +1,6 @@
 
 .header {
+    display: flex;
     box-shadow: 0 5px 0 rgba(12,13,14,0.1), 1px 2px 6px rgba(44, 5, 136, 0.1);
     /* top: -2.5%; */
     border-top: 5px #0096fa;
@@ -29,7 +30,26 @@
     border-radius: 5px 0px 0px 5px;
     border: 1px solid grey;
     height: 2.5em;
-    width: 14em;
+    width: 70%;
     padding-left: 0.5em;
     /* margin-top: 0.45em; */
+}
+
+#web-title{
+    text-align: left;
+    padding-top:0.25em;
+    padding-left: 1em;
+    padding-right: 3em;
+}
+
+#location-form {
+    position: relative;
+}
+
+#user-settings {
+    text-align: right;
+}
+
+.flex{
+    flex: 1 1 0px;
 }
