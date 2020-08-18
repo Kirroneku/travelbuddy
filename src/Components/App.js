@@ -5,12 +5,13 @@ import Header from "./Header";
 import PageData from "../Data/PageData.js";
 
 import TestPage from "./Pages/TestPage";
+import LocationPage from "./Pages/LocationPage";
 
 function App() {
 
   const [location, setLocation] = useState("Macchu Picchu");
   const [searching, setSearch] = useState(location);
-  const [currentPage, setPage] = useState(0);
+  const [currentPage, setPage] = useState(1);
 
   const newLocation = (event, location) => {
     console.log("New Location", event)
@@ -25,6 +26,9 @@ function App() {
       displayPage = <TestPage location={searching}></TestPage>
       break;
     case 1:
+      // Maybe have a location-id in storage, for instance maybe?
+      // Per user maybe??
+      displayPage = <LocationPage ></LocationPage>
       break;
     default:
       break;
