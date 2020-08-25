@@ -1,15 +1,15 @@
 
 .header {
     display: flex;
-    box-shadow: 0 5px 0 rgba(12,13,14,0.1), 1px 2px 6px rgba(44, 5, 136, 0.1);
+    box-shadow: 0 5px 0 rgba(105, 173, 185, 0.1), 1px 2px 6px rgba(7, 74, 129, 0.1);
     /* top: -2.5%; */
     border-top: 5px #0096fa;
     height: 3.5em;
     width: 100%;
     margin: 0px auto;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(116, 139, 187);
     /* position: fixed; */
-    z-index: 99;
+    z-index: 100;
     position: fixed;
 }
 
@@ -22,7 +22,11 @@
     font-size: 1em;
     margin-top: 0.5em;
     border-left: 0px;
-    
+}
+
+#searchSubmit:disabled {
+    color: lightgrey;
+    background-color: rgb(228, 228, 228)
 }
 
 #locationInput {
@@ -35,11 +39,19 @@
     /* margin-top: 0.45em; */
 }
 
+#plane {
+    font-family: FontAwesome;
+    width: 1em;
+    padding-top:0.1em;
+    margin-right: 0.2em;
+}
+
 #web-title{
     text-align: left;
     padding-top:0.25em;
     padding-left: 1em;
     padding-right: 3em;
+    color: rgb(250, 251, 233);
 }
 
 #location-form {

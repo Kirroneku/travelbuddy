@@ -10,7 +10,7 @@ transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
 height: 100vh;
 text-align: left;
 padding: 2rem;
-position: absolute;
+position: fixed;
 top: 0;
 left: 0;
 transition: transform 0.3s ease-in-out;

@@ -1,19 +1,12 @@
 import React, { useState } from 'react';
 import Header from "../Header";
 import GoogleApiWrapper from "../MapChart";
-import {Burger, Menu} from "../Hamburger/HamburgerMenu";
 
 import "../../CSS/Page.css";
 
 function LocationPage ({id}) {
-
-    const [open, setOpen] = useState(false);
-
     return (
         <div style={{display:'flex'}}>
-            <Burger open={open} setOpen={setOpen} />
-            <Menu open={open} setOpen={setOpen} />
-
             <div id="left-menu">
                 <center>
                     <h3>
@@ -31,8 +24,8 @@ function LocationPage ({id}) {
                 Aenean suscipit venenatis enim, quis blandit quam ornare id. Fusce felis diam, rhoncus nec eros a, bibendum sodales magna. Sed sit amet lacus fermentum, elementum diam ut, sodales mi. Nullam aliquet, nibh eu semper rutrum, neque ante consequat augue, ut semper erat massa non orci. Integer sapien tortor, pharetra id ante nec, fringilla pulvinar nibh. Ut porta nisi et enim blandit luctus. Integer in dui urna. In hac habitasse platea dictumst. Ut id tellus eget ligula rhoncus tristique. Maecenas et sapien ac ipsum dignissim suscipit. Duis mollis hendrerit turpis nec aliquam. In augue arcu, sodales ac iaculis eu, condimentum a orci. Sed euismod, velit quis tincidunt auctor, mauris dolor pretium lorem, et tempus mauris massa sit amet augue. Donec turpis enim, tempor id malesuada maximus, pretium vitae lectus.
                 </p>
             </div>
-
             <GoogleApiWrapper location="Toronto"/>
+            
         </div>
     );
 }

@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import '../CSS/Header.css';
 // import { Link } from 'react-router-dom';
+import {Burger, Menu} from "./Hamburger/HamburgerMenu";
 
 const isMobile = document.body.clientWidth < 500? true: false;
 
 const Header = ({ setLocation }) => {
+    const [open, setOpen] = useState(false);
 
     const socialStyle = {
         "float": "right",
@@ -25,9 +27,11 @@ const Header = ({ setLocation }) => {
     return (     
 
         <div>
+            <Burger open={open} setOpen={setOpen} />
+            <Menu open={open} setOpen={setOpen} />
             <div className="header">
                 <div className="flex">
-                    <h2 id="web-title">TravelBuddy</h2>
+                    <h2 id="web-title" style={{display: "flex"}}><div id="plane">&#xf072;</div>TravelBuddy</h2>
                 </div>
                 <div className="flex">
                     <form id="location-form" onSubmit={setLocation}>

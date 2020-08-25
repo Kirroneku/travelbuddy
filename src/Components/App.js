@@ -11,7 +11,7 @@ function App() {
 
   const [location, setLocation] = useState("Macchu Picchu");
   const [searching, setSearch] = useState(location);
-  const [currentPage, setPage] = useState(1);
+  const [currentPage, setPage] = useState(0);
 
   const newLocation = (event, location) => {
     console.log("New Location", event)
