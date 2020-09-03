@@ -3,6 +3,7 @@ import Header from "../Header";
 import GoogleApiWrapper from "../MapChart";
 
 import "../../CSS/Page.css";
+import "../../CSS/Card.css";
 
 function LocationPage ({id}) {
     return (

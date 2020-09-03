@@ -39,4 +39,12 @@
 
 .content {
   padding-top: 3.5em;
+  height: 100%;
+}
+
+.footer {
+  width: 430px;
+  margin: auto;
+  bottom: 1em;
+  border-top: solid 2px rgba(67, 70, 223, 0.555);
 }

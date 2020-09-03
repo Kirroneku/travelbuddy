@@ -5,7 +5,7 @@ import {Burger, Menu} from "./Hamburger/HamburgerMenu";
 
 const isMobile = document.body.clientWidth < 500? true: false;
 
-const Header = ({ setLocation }) => {
+const Header = ({ setLocation, setPage }) => {
     const [open, setOpen] = useState(false);
 
     const socialStyle = {

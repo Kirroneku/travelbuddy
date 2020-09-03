@@ -25,6 +25,7 @@ const Burger = ({ open, setOpen }) => {
         <div />
         <div />
         <div />
+        <div />
       </StyledBurger>
     )
 }

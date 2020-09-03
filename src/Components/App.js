@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import '../CSS/App.css';
 
 import Header from "./Header";
+import Footer from "./Footer";
 import PageData from "../Data/PageData.js";
 
 import TestPage from "./Pages/TestPage";
@@ -14,9 +15,11 @@ function App() {
   const [currentPage, setPage] = useState(0);
 
   const newLocation = (event, location) => {
+    setPage(1)
     console.log("New Location", event)
     event.preventDefault();
     setSearch(document.getElementById("locationInput").value);
+    
   }
 
   let displayPage;
@@ -36,13 +39,13 @@ function App() {
 
   return (
     <div className="App">
-      <Header setLocation={(event) => newLocation(event)}/>
+      <Header setLocation={(event) => newLocation(event)} setPage={() => setPage}/>
       <div display="flex" className="content">
         <div>
           {displayPage}
         </div>
       </div>
-
+      <Footer setPage={(page) => setPage(page)}/>
     </div>
   );
 }

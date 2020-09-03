@@ -4,9 +4,9 @@ const StyledMenu = styled.nav`
 display: flex;
 flex-direction: column;
 justify-content: center;
-background: #FFFFFF;
+background: rgb(242 245 255);
 border-right: solid 1px #d3d3d3;
-transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
+transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-90%)'};
 height: 100vh;
 text-align: left;
 padding: 2rem;
@@ -16,7 +16,7 @@ left: 0;
 transition: transform 0.3s ease-in-out;
 z-index: 1;
 width: 100%;
-max-width: 600px;
+max-width: 300px;
 
 a {
   font-size: 2rem;
